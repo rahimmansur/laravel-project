@@ -35,6 +35,10 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
 
     });
 
+    // Post
+    Route::resource('/posts', 'PostController');
+
+
     Route::group(['middleware' => ['auth']], function() {
         /**
          * Logout Routes

@@ -29,7 +29,7 @@
     </style>
 
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link href="signin.css" rel="stylesheet">
 </head>
 <body class="text-center">
